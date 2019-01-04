@@ -34,8 +34,12 @@ var paths = {
 		output: 'resources/images/'
 	},
 	copy: {
-		input: 'src/copy/**/*',
-		output: 'resources/'
+    input: 'src/fonts/**',
+    output: 'resources/fonts/',
+		input_js: ['node_modules/{bootstrap,jquery,jquery-match-height,jquery-scrollTo,lightbox,stickyfill}/dist/**/*.min.{js,js.map}', 'assets/**/prism-min.js'],
+		output_js: 'resources/scripts/',
+    input_css: ['node_modules/{bootstrap,lightbox}/dist/*.{css, css.map}', 'assets/**/prism.css', 'assets/plugins/elegant_font/**/style.css'],
+		output_css: 'resources/css/'
 	},
 	reload: './'
 }
@@ -75,6 +79,7 @@ var lazypipe = require('lazypipe');
 var rename = require('gulp-rename');
 var header = require('gulp-header');
 var package = require('./package.json');
+var flatten = require('gulp-flatten');
 
 // Scripts
 var jshint = require('gulp-jshint');
@@ -247,8 +252,15 @@ var copyFiles = function (done) {
 	if (!settings.copy) return done();
 
 	// Copy static files
-	src(paths.copy.input)
-		.pipe(dest(paths.copy.output));
+	src(paths.copy.input_js)
+    .pipe(flatten())
+		.pipe(dest(paths.copy.output_js));
+  src(paths.copy.input_css)
+    .pipe(flatten())
+  	.pipe(dest(paths.copy.output_css));
+  src(paths.copy.input)
+    .pipe(flatten())
+    .pipe(dest(paths.copy.output));
 
 	// Signal completion
 	done();
