@@ -2,8 +2,8 @@
   "name": "exist-documentation-5",
   "version": "4.1.0",
   "description": "My amazing exist-documentation-5 application",
-  "homepage": "",
-  "bugs": "",
+  "homepage": "https://github.com/duncdrum/PrettyDocs-Theme#readme",
+  "bugs": "https://github.com/duncdrum/PrettyDocs-Theme/issues",
   "keywords": [
     "exist",
     "exist-db",
@@ -14,12 +14,28 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-xml": "^0.3.2",
+    "cypress": "^3.1.2",
+    "del": "^3.0.0",
     "fs-extra": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-header": "^2.0.7",
+    "gulp-jshint": "^2.1.0",
+    "gulp-optimize-js": "^1.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.1.0",
+    "gulp-uglify": "^3.0.1",
+    "jshint": "^2.9.7",
+    "jshint-stylish": "^2.2.1",
+    "lazypipe": "^1.0.2",
     "mocha": "^5.2.0",
     "supertest": "^3.1.0",
     "xmldoc": "^1.1.1",
-    "yeoman-assert": "^3.1.1",
-    "cypress": "^3.1.2"
+    "yeoman-assert": "^3.1.1"
   },
   "author": {
     "name": "Duncan Paterson",
@@ -27,10 +43,15 @@
   },
   "license": "LGPL-3.0",
   "scripts": {
+    "gulp": "gulp",
     "test": "mocha test/mocha/ --recursive --exit",
     "cypress": "cypress open"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duncdrum/PrettyDocs-Theme",
+    "license": "LGPL-3.0"
+  },
   "dependencies": {
     "bootstrap": "^4.2.1",
     "jquery": "^3.3.1",
