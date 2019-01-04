@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta 
+  xmlns="http://exist-db.org/xquery/repo">
+  <description>My amazing exist-documentation-5 application</description>
+  <author>Duncan Paterson</author>
+  <website>https://www.duncdrum.eu</website>
+  <status>SNAPSHOT</status>
+  <license>LGPL-3.0</license>
+  <copyright>true</copyright>
+  <type>application</type>
+  <target>doc5</target>
+</meta>

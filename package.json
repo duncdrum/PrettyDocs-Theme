@@ -1,0 +1,34 @@
+{
+  "name": "exist-documentation-5",
+  "version": "4.1.0",
+  "description": "My amazing exist-documentation-5 application",
+  "homepage": "",
+  "bugs": "",
+  "keywords": [
+    "exist",
+    "exist-db",
+    "xml",
+    "xql",
+    "xquery"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-xml": "^0.3.2",
+    "fs-extra": "^7.0.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0",
+    "xmldoc": "^1.1.1",
+    "yeoman-assert": "^3.1.1",
+    "cypress": "^3.1.2"
+  },
+  "author": {
+    "name": "Duncan Paterson",
+    "email": "d.paterson@me.com"
+  },
+  "license": "LGPL-3.0",
+  "scripts": {
+    "test": "mocha test/mocha/ --recursive --exit",
+    "cypress": "cypress open"
+  },
+  "repository": ""
+}

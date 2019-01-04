@@ -1,0 +1,11 @@
+{
+  "@existdb/generator-exist": {
+    "promptValues": {
+      "author": "Duncan Paterson",
+      "email": "d.paterson@me.com",
+      "website": "https://www.duncdrum.eu",
+      "github": false,
+      "atom": false
+    }
+  }
+}
