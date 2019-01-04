@@ -36,9 +36,9 @@ var paths = {
 	copy: {
     input: 'src/fonts/**',
     output: 'resources/fonts/',
-		input_js: ['node_modules/{bootstrap,jquery,jquery-match-height,jquery-scrollTo,ekko-lightbox}/dist/**/*.min.{js,js.map}', 'assets/**/prism-min.js', 'assets/**/stickyfill.min.js'],
+		input_js: ['node_modules/{bootstrap,jquery,jquery-match-height,ekko-lightbox,stickyfilljs}/dist/**/*.min.{js,js.map}'],
 		output_js: 'resources/scripts/',
-    input_css: ['node_modules/{bootstrap,ekko-lightbox}/dist/**/*.{css,css.map}', 'assets/**/prism.css', 'assets/plugins/elegant_font/**/style.css'],
+    input_css: ['node_modules/{bootstrap,ekko-lightbox}/dist/**/*.{css,css.map}', 'src/css/*.css'],
 		output_css: 'resources/css/'
 	},
 	reload: './'
