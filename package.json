@@ -30,5 +30,14 @@
     "test": "mocha test/mocha/ --recursive --exit",
     "cypress": "cypress open"
   },
-  "repository": ""
+  "repository": "",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "jquery-match-height": "^0.7.2",
+    "jquery-scrollTo": "^0.2.2",
+    "lightbox": "^0.5.0",
+    "prism": "^4.1.2",
+    "stickyfill": "^1.1.1-strict"
+  }
 }
