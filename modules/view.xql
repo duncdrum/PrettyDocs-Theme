@@ -3,10 +3,10 @@ xquery version "3.0";
 import module namespace templates="http://exist-db.org/xquery/templates";
 
 (: The following modules provide functions which will be called by the templating :)
-(: import module namespace dq="http://exist-db.org/xquery/documentation/search" at "search.xql";
-import module namespace docbook="http://docbook.org/ns/docbook" at "docbook.xql"; :)
-import module namespace app="http://exist-db.org/apps/doc5/templates" at "app.xql";
-import module namespace config="http://exist-db.org/apps/doc5/config" at "config.xqm";
+(: import module namespace dq="http://exist-db.org/xquery/documentation/search" at "search.xql"; :)
+import module namespace docbook="http://docbook.org/ns/docbook" at "/db/apps/doc5/modules/docbook.xql";
+import module namespace app="http://exist-db.org/apps/doc5/templates" at "/db/apps/doc5/modules/app.xql";
+import module namespace config="http://exist-db.org/apps/doc5/config" at "/db/apps/doc5/modules/config.xqm";
 (: import module namespace review="http://exist-db.org/xquery/documentation/review" at "review.xql";
 import module namespace site="http://exist-db.org/apps/site-utils";
 import module namespace diag="http://exist-db.org/xquery/diagnostics" at "diagnostics.xql"; :)

@@ -4,7 +4,7 @@ module namespace app="http://exist-db.org/apps/doc5/templates";
 
 declare namespace xqdoc="http://www.xqdoc.org/1.0";
 import module namespace templates="http://exist-db.org/xquery/templates";
-import module namespace config="http://exist-db.org/apps/doc5/config" at "config.xqm";
+import module namespace config="http://exist-db.org/apps/doc5/config" at "/db/apps/doc5/config.xqm";
 
 declare variable $app:tickets :="https://github.com/duncdrum/exist-docs/issues/new?title=error%20on%20quickstart";
 

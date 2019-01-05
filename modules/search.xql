@@ -5,7 +5,7 @@ xquery version "3.0";
     ================================================ :)
 module namespace dq = "http://exist-db.org/xquery/documentation/search";
 
-import module namespace config = "http://exist-db.org/xquery/apps/config" at "config.xqm";
+import module namespace config = "http://exist-db.org/apps/doc5/config" at "/db/apps/doc5/modules/config.xqm";
 
 import module namespace kwic = "http://exist-db.org/xquery/kwic";
 import module namespace util = "http://exist-db.org/xquery/util";
