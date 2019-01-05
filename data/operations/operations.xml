@@ -1,0 +1,144 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Operations</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>operations</keyword>
+        </keywordset>
+    </info>
+
+    <para>Operations is the art of installing eXist-db and keeping it up-and-running professionally. This includes things like more advanced installation types, doing backups and restores, automate data transfers, etc.</para>
+
+    <!-- ================================================================== -->
+    <sect1 xml:id="ops">
+        <title>Operations</title>
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="java-admin-client">Java Admin Client</link> </term>
+                <listitem>
+                    <para>This is a utility for performing basic administrative tasks. It has both a
+                        GUI and a command line interface.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="configuration">Configuration</link> </term>
+                <listitem>
+                    <para>How to configure eXist-db using its main configuration file
+                        <code>conf.xml</code>.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="backup">Backups</link> </term>
+                <listitem>
+                    <para>How to backup and restore an eXist-db database.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="advanced-installation">Advanced Installation</link> </term>
+                <listitem>
+                    <para>How to install eXist-db on a headless (no GUI) system and run it as a
+                        service.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="ant-tasks">Ant tasks</link> </term>
+                <listitem>
+                    <para>How to use the specific eXist-db <code>Ant</code> tasks to automate common
+                        system administration and operation tasks.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="deployment">Database Deployment</link> </term>
+                <listitem>
+                    <para>How to install eXist-db as a stand-alone or embedded server.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="exist-building">Building eXist</link> </term>
+                <listitem>
+                    <para>How to build Java <code>.jar</code> or <code>.war</code> files from an
+                        eXist distribution.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="faq_performance">Performance FAQ</link> </term>
+                <listitem>
+                    <para>Contains a short FAQ about eXist-db's performance.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="production_good_practice">Production Use - Good
+                    Practice</link> </term>
+                <listitem>
+                    <para>When you use eXist-db on a production system, please read this for
+                        advice.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="production_web_proxying">Production use - Proxying eXist-db
+                    behind a Web Server</link> </term>
+                <listitem>
+                    <para>You can proxy eXist-db behind a web server like Nginx or Apache. This
+                        article will provide you with some examples.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="jmx">JMX</link> </term>
+                <listitem>
+                    <para>eXist has a JMX interface for access to internal statistics about memory,
+                        caching, etc.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="incompatibilities">incompatibilities overview</link> </term>
+                <listitem>
+                    <para>Consult this article when you upgrade from an older version of
+                        eXist-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="scheduler">Scheduler Module</link> </term>
+                <listitem>
+                    <para>Scheduling jobs (like backups) is a useful tool in an eXist-db
+                        installation.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="security">Security</link> </term>
+                <listitem>
+                    <para>The security model of eXist. Also explains how to connect eXist-db to
+                        other authentication realms like LDAP or OAuth.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="tuning">Tuning the Database</link> </term>
+                <listitem>
+                    <para>Explains what you can do to optimize the database's performance.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="faq_performance">Performance FAQ</link> </term>
+                <listitem>
+                    <para>Contains a short FAQ about eXist-db's performance.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term/>
+                <listitem>
+                    <para/>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="upgrading">Upgrade Guide</link> </term>
+                <listitem>
+                    <para>Helps you updating to a new version of eXist-db.</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
+    </sect1>
+
+
+</article>

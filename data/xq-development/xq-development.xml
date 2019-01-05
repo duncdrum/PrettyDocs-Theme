@@ -1,0 +1,65 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>XQuery</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>xquery</keyword>
+        </keywordset>
+    </info>
+
+    <para>eXist-db's main programming language is XQuery. This documentation set does not contain a full introduction to XQuery. For this read the excellent <link xlink:href="http://shop.oreilly.com/product/0636920035589.do">book about XQuery by Priscilla Walmsley</link>. The XQuery related articles below discuss specific eXist-db related details or shed light on some of the lesser known features of the language.</para>
+
+    <!-- ================================================================== -->
+
+    <sect1 xml:id="xq">
+        <title>XQuery</title>
+
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="learning-xquery">Learning XQuery</link> </term>
+                <listitem>
+                    <para>This provides tips and resources for newcomers to XQuery and
+                        eXist-db</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xquery">XQuery in eXist-db</link> </term>
+                <listitem>
+                    <para>This discusses the XQuery implementation of eXist-db for the somewhat more
+                        experienced user</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="kwic">KWIC (Keywords In Context)</link> </term>
+                <listitem>
+                    <para>This article will learn you how to display search results in context
+                        (parts of the document surrounding the search match).</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="update_ext">XQuery Update Extensions</link> </term>
+                <listitem>
+                    <para>Tells you how to update XML stored in the database using eXist-db's update
+                        extension.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xqdoc">xqDoc</link> </term>
+                <listitem>
+                    <para>Describes the built-in XQuery documentation system.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xqsuite">XQsuite</link> </term>
+                <listitem>
+                    <para>This is an annotation-based framework that allows you to add tests to
+                        XQuery functions and execute them.</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
+    </sect1>
+
+</article>

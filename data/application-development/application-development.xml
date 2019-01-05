@@ -1,0 +1,197 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Application Development</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>application-development</keyword>
+        </keywordset>
+    </info>
+
+    <para>eXist-db is not only a database but also an excellent application development platform. The following articles will help you find your way in this:</para>
+
+    <!-- ================================================================== -->
+
+    <sect1 xml:id="app-dev">
+        <title>Application development</title>
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="development-starter">Getting Started with Web Application
+                    Development</link> </term>
+                <listitem>
+                    <para>This will help you build a basic web application using the built-in <link
+                        xlink:href="templating.xml">HTML templating framework</link>.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="using-collections">Using Collections in eXist-db</link> </term>
+                <listitem>
+                    <para>Provide information about how to set up your application's collection
+                        structure in eXist-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xmldb">xmldb module</link> </term>
+                <listitem>
+                    <para>Provides an overview of the functions to query and manipulate the database
+                        contents in the xmldb module.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="urlrewrite">URL Rewriting</link> </term>
+                <listitem>
+                    <para>How to control the mapping of URL's to code in eXist-db. This is one the
+                        most important mechanisms in eXist-db to base applications on.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xsl-transform">XSL Transformations</link> </term>
+                <listitem>
+                    <para>Explains how to perform XSL Transformation in XQuery code.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="indexing">Indexing</link> </term>
+                <listitem>
+                    <para>This will provide you with an overview of eXist-db's indexes and how to
+                        configure them. More about indexing in:</para>
+                    <variablelist>
+                        <varlistentry>
+                            <term> <link xlink:href="lucene">Full Text indexing</link> </term>
+                            <listitem>
+                                <para>Will provide with all the information necessary to use
+                                    eXist-db's Lucene based full-text indexing.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry>
+                            <term> <link xlink:href="ngram">N-Gram Index</link> </term>
+                            <listitem>
+                                <para>Provides information on how to configure the
+                                    <code>ngram</code> index.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry>
+                            <term> <link xlink:href="newrangeindex">Range Index</link> </term>
+                            <listitem>
+                                <para>This article describes eXist-db's super fast modularized range
+                                    index based on Apache Lucene.</para>
+                                <para>There is also an <link xlink:href="oldrangeindex">older
+                                    version of the range index</link>, kept for compatibility
+                                    reasons. Usage of this range index is discouraged.</para>
+                            </listitem>
+                        </varlistentry>
+                    </variablelist>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="testing">Testing and Validation</link> </term>
+                <listitem>
+                    <para>This will provide you with an overview of testing eXist-db and its
+                        applications. More about testing in:</para>
+                    <variablelist>
+                        <varlistentry>
+                            <term> <link xlink:href="validation">XML Validation</link> </term>
+                            <listitem>
+                                <para>Explains how to do XML validation in eXist-db.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry>
+                            <term> <link xlink:href="xqsuite">XQsuite</link> </term>
+                            <listitem>
+                                <para>This is an annotation-based framework that allows you to add
+                                    unit tests to XQuery functions and execute them.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry>
+                            <term> <link xlink:href="integration-testing">Integration testing</link> </term>
+                            <listitem>
+                                <para>Provides information on how to configure automated test
+                                    pipelines, and recommends minimal test configurations.</para>
+                            </listitem>
+                        </varlistentry>
+                    </variablelist>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xinclude">XInclude Support</link> </term>
+                <listitem>
+                    <para>Explains how to use XInclude in eXist-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="beginners-guide-to-xrx-v4">The beginners guide to
+                    XRX</link> </term>
+                <listitem>
+                    <para>This article will learn you how to create a simple application using XRX
+                        (XForms, REST, XQuery).</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="repo">Package Repository</link> </term>
+                <listitem>
+                    <para>How to work with EXPath packages in eXist-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="contentextraction">Content extraction</link> </term>
+                <listitem>
+                    <para>Shows how to extract and index non-XML contents, like PDF or Word
+                        documents.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_rest">REST-Style Web API</link> </term>
+                <listitem>
+                    <para>Explains how to use eXist-db's REST interface, a useful tool in building
+                        applications.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="http-request-session">HTTP Request/Session</link> </term>
+                <listitem>
+                    <para>Provides information about the functions available working with HTTP
+                        requests and sessions.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="scheduler">Scheduler Module</link> </term>
+                <listitem>
+                    <para>How to regularly schedule jobs.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="security">Security</link> </term>
+                <listitem>
+                    <para>When you get serious writing applications, you need to be aware of the
+                        security model of eXist-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="xforms">XForms Introduction</link> </term>
+                <listitem>
+                    <para>Introduces the bright shiny world of XForms inside eXist-db to you.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="tuning">Tuning the Database</link> </term>
+                <listitem>
+                    <para>Explains what you can do to optimize your queries and indexes.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="triggers">Configuring Database Triggers</link> </term>
+                <listitem>
+                    <para> Will tell you how to use and configure triggers in your database that
+                        fire when things get created, updated or deleted.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="versioning">Versioning Extension</link> </term>
+                <listitem>
+                    <para>Explains how to use the built-in versioning system of eXist-db.</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </sect1>
+</article>

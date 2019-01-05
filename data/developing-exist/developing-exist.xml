@@ -1,0 +1,43 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Developing eXist-db</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>exist</keyword>
+        </keywordset>
+    </info>
+
+    <para>The following articles provide information on how to work on eXist-db itself, either by enhancing its code or providing documentation.</para>
+
+    <!-- ================================================================== -->
+
+    <sect1 xml:id="dev">
+        <title>Developing eXist-db</title>
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="devguide_manifesto">eXist-db Developer Manifesto</link> </term>
+                <listitem>
+                    <para>This article lays out guidelines for developers that wish to contribute to
+                        eXist-db's code base itself.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_codereview">Code Review Guide</link> </term>
+                <listitem>
+                    <para>Provides instructions how to review somebody else's (or your own of
+                        course) code.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="author-reference">Author Reference</link> </term>
+                <listitem>
+                    <para>Explains how to write a documentation article for eXist-db (like the ones
+                        you are looking at now).</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
+    </sect1>
+</article>

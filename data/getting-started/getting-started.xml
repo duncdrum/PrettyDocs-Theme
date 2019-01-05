@@ -1,0 +1,100 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Getting Started</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>getting-started</keyword>
+        </keywordset>
+    </info>
+
+    <para>Welcome to eXist-db. This article serves as an index to the eXist-db documentation
+        articles, which will help you getting to know, install and use eXist-db.</para>
+
+    <!-- ================================================================== -->
+
+    <sect1 xml:id="start">
+        <title>Getting Started</title>
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="basic-installation">Basic Installation</link> </term>
+                <listitem>
+                    <para>How to do a basic installation of eXist-db and fire it up for the first
+                        time.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>Screencasts</term>
+                <listitem>
+                    <para>For the first steps with your freshly installed eXist-db, watch the
+                        screencasts available on the <link condition="_blank"
+                        xlink:href="http://exist-db.org">eXist-db homepage</link> </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link condition="_blank"
+                    xlink:href="http://shop.oreilly.com/product/0636920026525.do">eXist-db
+                    Book</link> </term>
+                <listitem>
+                    <para>There is a whole book about eXist-db, written for both the novice
+                        <emphasis>and</emphasis> the more experienced user.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="getting-help">Getting Help</link> </term>
+                <listitem>
+                    <para>This article will tell you where to go for help and advice.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="dashboard">Dashboard</link> </term>
+                <listitem>
+                    <para>Learn how to use and populate eXist-db's main user interface, the
+                        dashboard.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="uploading-files">Uploading files</link> </term>
+                <listitem>
+                    <para>Learn how to get files in and populate your database.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="webdav">WebDAV</link> </term>
+                <listitem>
+                    <para>One of the ways to easily view and populate the database is using the
+                        WebDAV protocol.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="using-collections">Using Collections in eXist-db</link> </term>
+                <listitem>
+                    <para>Provide information about how to set up a collection structure in
+                        eXist-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="learning-xquery">Learning XQuery</link> </term>
+                <listitem>
+                    <para>Provides tips and resources for newcomers to XQuery and eXist-db</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="oxygen">How to use oXygen together with eXist-db</link> </term>
+                <listitem>
+                    <para>If you're using <link condition="_blank"
+                        xlink:href="http://oxygenxml.com/">oXygen</link>, this article describes how
+                        to make the most of it in combination with eXIst-db.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="getting-help-how-to-report">How to report an issue</link> </term>
+                <listitem>
+                    <para>If you think you found a bug, this article will tell you how to report
+                        it.</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </sect1>
+</article>

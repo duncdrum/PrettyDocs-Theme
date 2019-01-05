@@ -1,0 +1,35 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Backmatter</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>exist</keyword>
+        </keywordset>
+    </info>
+
+    <para>Alphabetical Lists of all articles by either subject or title.</para>
+
+    <!-- ================================================================== -->
+
+    <sect1 xml:id="backmatter">
+    <title>Indexes</title>
+    <!-- ================================================================== -->
+
+    <sect2 xml:id="alphabetical-index">
+        <title>Alphabetical index</title>
+        <para>This section lists all available articles in alphabetical order of their titles.</para>
+        <para role="indexontitle"/>
+    </sect2>
+
+    <!-- ================================================================== -->
+
+    <sect2 xml:id="subject-index">
+        <title>Subject index</title>
+        <para>This section lists all available articles by subject keyword. </para>
+        <para role="indexonkeyword"/>
+    </sect2>
+    </sect1>
+
+</article>

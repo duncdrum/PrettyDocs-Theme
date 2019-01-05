@@ -1,0 +1,119 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Java Development</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>java-development</keyword>
+        </keywordset>
+    </info>
+
+    <para>eXist-db is based on Java. Besides using eXist-db as a stand-alone application platform, you can also use it from <emphasis>within</emphasis> Java code. The following articles will help you with this.</para>
+
+    <!-- ================================================================== -->
+
+    <sect1 xml:id="java">
+        <title>Java development</title>
+
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="deployment">Database Deployment</link> </term>
+                <listitem>
+                    <para>How to install eXist-db as a stand-alone or embedded server. An embedded
+                        server can be accessed directly from Java code.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_xmldb">Writing Java Applications with the XML:DB
+                    API</link> </term>
+                <listitem>
+                    <para>Explains how to work with eXist-db from Java code using the XML:DB API.
+                        This API provides a common interface to native or XML-enabled databases and
+                        supports the development of portable, reusable applications.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="exist-building">Building eXist</link> </term>
+                <listitem>
+                    <para>How to build Java <code>.jar</code> or <code>.war</code> files from an
+                        eXist distribution.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_indexes">Developer's Guide to Modularized
+                    Indexes</link> </term>
+                <listitem>
+                    <para>Explains how the internal indexing mechanism works and how to add your own
+                        indexes to it.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_log4j">Log4j Logging Guide</link> </term>
+                <listitem>
+                    <para>This article explains how to add logging to your Java code using
+                        Log4J.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_soap">SOAP Interface Developer's Guide</link> </term>
+                <listitem>
+                    <para>Explains how to add a SOAP interface to eXist-db using Java code.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_xmlrpc">XML-RPC API Developer's Guide</link> </term>
+                <listitem>
+                    <para>Explains how to interface with eXist-db using the XML-RPC API.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="extensions">Extension Modules</link> </term>
+                <listitem>
+                    <para>Provides an overview of how to create eXist-db extension modules (in Java)
+                        and contains a list of available extension modules.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="jmx">JMX</link> </term>
+                <listitem>
+                    <para>eXist provides access to various management interfaces using JMX.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_indexes">Developer's Guide to Modularized
+                    Indexes</link> </term>
+                <listitem>
+                    <para>Explains how the internal indexing mechanism works and how to add your own
+                        indexes to it.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_log4j">Log4j Logging Guide</link> </term>
+                <listitem>
+                    <para>This article explains how to add logging to your Java code using
+                        Log4J.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_soap">SOAP Interface Developer's Guide</link> </term>
+                <listitem>
+                    <para>Explains how to add a SOAP interface to eXist-db using Java code.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_xmlrpc">XML-RPC API Developer's Guide</link> </term>
+                <listitem>
+                    <para>Explains how to interface with eXist-db using the XML-RPC API.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="extensions">Extension Modules</link> </term>
+                <listitem>
+                    <para>Provides an overview of how to create eXist-db extension modules (in Java)
+                        and contains a list of available extension modules.</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </sect1>
+</article>

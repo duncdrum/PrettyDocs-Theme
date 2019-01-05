@@ -1,0 +1,44 @@
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article version="5.0" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Interfaces</title>
+        <date>1Q19</date>
+        <keywordset>
+            <keyword>interfaces</keyword>
+        </keywordset>
+    </info>
+
+    <para>eXist-db provides many ways of interfacing with the database.</para>
+<!-- ================================================================== -->
+
+    <sect1 xml:id="interface">
+        <title>Interfaces</title>
+        <variablelist>
+            <varlistentry>
+                <term> <link xlink:href="devguide_rest">REST-Style Web API</link> </term>
+                <listitem>
+                    <para>Explains how to use eXist-db's REST interface.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_soap">SOAP Interface Developer's Guide</link> </term>
+                <listitem>
+                    <para>Explains how to add a SOAP interface to eXist-db using Java code.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="devguide_xmlrpc">XML-RPC API Developer's Guide</link> </term>
+                <listitem>
+                    <para>Explains how to interface with eXist-db using the XML-RPC API.</para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term> <link xlink:href="webdav">WebDAV</link> </term>
+                <listitem>
+                    <para>Explains how to use eXist-db's WebDAV interface.</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </sect1>
+</article>
