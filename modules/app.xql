@@ -64,6 +64,10 @@ declare function app:head($node as node(), $model as map(*)) as element(header){
             <p>Open source native XML database</p>
           </div>
           <!-- //tag-line -->
+          <div class="text-right text-info">
+          <p>version: {data(config:expath-descriptor()/@version)}</p>
+          </div>
+          <!-- //version-byline -->
           {
           (: there is probably a better way to find this, but it escapes me right now. :)
           let $uri := tokenize(request:get-uri(), '/')
