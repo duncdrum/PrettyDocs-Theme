@@ -92,7 +92,7 @@ declare function app:head($node as node(), $model as map(*)) as element(header){
             <!-- //twitter-tweet -->
             <div class="hip-chat cta-container">
               <a class="btn btn-primary btn-xs" href="https://www.hipchat.com/invite/300223/6ea0341b23fa1cf8390a23592b4b2c39">
-                <i class="fa fa-comments-o" aria-hidden="true"/> Hip Chat</a>
+                <i class="fas fa-comments" aria-hidden="true"/> Hip Chat</a>
             </div>
             <!-- //hip-chat -->
           </div>)
@@ -132,7 +132,7 @@ function app:ticket($node as node(), $model as map(*)) as element(div){
       </h4>
       <p>Please submit an issue so we can improve it.</p>
       <a href="{$app:tickets}" class="btn btn-red btn-cta">
-        <i class="fa fa-exclamation-circle"/> Submit Issues</a>
+        <i class="fas fa-exclamation-circle"/> Submit Issues</a>
     </div>
     <!-- //content-inner -->
   </div>

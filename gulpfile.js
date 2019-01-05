@@ -36,7 +36,7 @@ var paths = {
 	copy: {
     input: 'src/fonts/**',
     output: 'resources/fonts/',
-		input_js: ['node_modules/{bootstrap,jquery,jquery-match-height,ekko-lightbox,stickyfilljs}/dist/**/*.min.{js,js.map}'],
+		input_js: ['node_modules/{bootstrap,jquery,jquery-match-height,ekko-lightbox,stickyfilljs}/dist/**/*.min.{js,js.map}', 'node_modules/@fortawesome/**/all.min.js'],
 		output_js: 'resources/scripts/',
     input_css: ['node_modules/{bootstrap,ekko-lightbox}/dist/**/*.{css,css.map}', 'src/css/*.css'],
 		output_css: 'resources/css/'
