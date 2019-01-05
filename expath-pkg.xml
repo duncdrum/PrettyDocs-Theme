@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package 
+<package
   xmlns="http://expath.org/ns/pkg" name="http://exist-db.org/apps/doc5"
   abbrev="doc5" version="4.1.0" spec="1.0">
   <title>My amazing exist-documentation-5 application</title>
-  <dependency processor="http://exist-db.org" semver-min="4.4.0"/>
+  <dependency processor="http://exist-db.org" semver-min="4.5.0"/>
+  <dependency package="http://exist-db.org/apps/shared" semver-min="0.8.1"/>
 </package>
