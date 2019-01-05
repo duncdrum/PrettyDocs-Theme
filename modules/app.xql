@@ -22,7 +22,7 @@ function app:body($node as node(), $model as map(*)) {
 declare function app:fa-icons($node as node(), $model as map(*)) as element(i){
   switch($node)
     case 'Getting Started with Web Application Development'
-      return <i class="icon fa fa-paper-plane"/>
+      return <i class="icon fas fa-paper-plane"/>
     default return <i class="icon icon_puzzle_alt"/>
 };
 
@@ -101,10 +101,10 @@ declare function app:head($node as node(), $model as map(*)) as element(header){
             <!-- //hip-chat -->
           </div>)
             else (<ol class="breadcrumb">
-              <li>
+              <li class="breadcrumb-item">
                   <a href="index.html">Home</a>
               </li>
-              <li class="active">
+              <li class="breadcrumb-item active">
                 <a href="#">{$file}</a>
               </li>
           </ol>)
