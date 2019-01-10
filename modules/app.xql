@@ -4,7 +4,9 @@ module namespace app="http://exist-db.org/apps/doc5/templates";
 
 declare namespace xqdoc="http://www.xqdoc.org/1.0";
 import module namespace templates="http://exist-db.org/xquery/templates";
-import module namespace config="http://exist-db.org/apps/doc5/config" at "/db/apps/doc5/config.xqm";
+import module namespace config="http://exist-db.org/apps/doc5/config" at "config.xqm";
+
+declare namespace db5="http://docbook.org/ns/docbook";
 
 declare variable $app:tickets :="https://github.com/duncdrum/exist-docs/issues/new?title=error%20on%20quickstart";
 
@@ -26,6 +28,32 @@ declare function app:fa-icons($node as node(), $model as map(*)) as element(i){
     default return <i class="icon icon_puzzle_alt"/>
 };
 
+declare
+  %templates:wrap
+function app:docnav($node as node(), $model as map(*)) as element (div) {
+  <div id="doc-nav" class="doc-nav">
+      <nav id="doc-menu" class="nav doc-menu flex-column sticky">{
+        for $n1 in $node//db5:sect1
+        let $n2 := $n1//db5:sect2
+        return
+            (element a { attribute class {'nav-link'},
+                attribute href {'#' || data($n1/@xml:id)},
+                $n1/db5:title/text()
+            },
+            if ($n2)
+            then (element nav { attribute class {'doc-sub-menu nav flex-column'},
+                for $n in $n2
+                return
+                element a { attribute class {'nav-link'},
+                attribute href {'#' || data($n/@xml:id)},
+                $n/db5:title/text()
+            }
+            })
+            else ())
+      }</nav>
+  <!--//doc-menu-->
+  </div>
+};
 
 declare
   %templates:wrap
